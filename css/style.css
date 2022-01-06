@@ -2,7 +2,7 @@ body{
     font-family: 'Titillium Web', sans-serif;
     margin:0;
 }
- /*-- REUSED STYLE --*/
+ /*-- REUSEABLE STYLE --*/
  
 h1{
     font-size: 50px;
@@ -59,7 +59,7 @@ p{
 .focused-title h1{
     margin-left: 20px;
 }
-#mission-color{
+.mission-color{
     color:#FF6F59;
 }
 .scroll-down{
@@ -97,7 +97,7 @@ p{
     width:50%;
     margin-right: 5%;
     margin-left: 0%;
-    margin-top:40px;
+    margin-top:50px;
 }
 .image-part{
     width:40%;
@@ -118,4 +118,20 @@ p{
 .global-community-section .content-part{
     margin-right: 0%;
     margin-left: 5%;
+}
+/*-- FOOTER SECTION --*/
+.footer-section{
+    text-align: center;
+    background-color: #0b0d17;
+    padding: 6px 0px;
+}
+.footer-section p{
+    font-size: 12px;
+    color:#444
+}
+.footer-section h3{
+    margin:0;
+    margin-top: 20px;
+    font-size: 30px;
+    color: #f0f0f0;
 }
