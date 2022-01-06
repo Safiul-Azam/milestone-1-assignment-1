@@ -8,6 +8,10 @@ h1{
     font-size: 50px;
     margin: 0px;
 }
+h2{
+    font-size: 40px;
+    margin:0;
+}
 p{
     font-size: 16px;
     color:#333;
@@ -16,7 +20,7 @@ p{
     text-transform: capitalize;
 }
 .link-btn{
-    color:#ddd;
+    color:rgb(245, 240, 240);
     padding: 7px 30px;
     font-size: 18px;
     font-weight: 600;
@@ -86,4 +90,20 @@ p{
 #gools{
     background-color: #f7d5d0a1;
 }
+/*-- DEVELOP SECTION --*/
 
+.content-part{
+    width:50%;
+    margin-right: 5%;
+    margin-left: 0%;
+    margin-top: 40px;
+}
+.image-part{
+    width:40%;
+}
+.develop-section{
+    background-image: url(../images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 20%;
+}
