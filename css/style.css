@@ -3,7 +3,6 @@ body{
 }
 *{
     margin:0; 
-    padding: 0;
     box-sizing: border-box;
 }
  /*-- REUSEABLE STYLE --*/
@@ -24,6 +23,7 @@ p{
     font-size: 16px;
     color:#333;
     font-weight: 600;
+    margin-top: 20px;
     margin-bottom: 40px;
     text-transform: capitalize;
 }
@@ -56,9 +56,9 @@ p{
     background-color: #ffff;
 }
 .focused-title{
-    margin-top: 100px;
+    margin-top: 120px;
     border-image: linear-gradient(#F49760,#F49760);
-    border-image-slice: 20 20% 30;
+    border-image-slice: 1;
     border-left: 3px solid;
     /* margin-top: 120px;
     border-left: 3px solid red;
@@ -144,14 +144,17 @@ p{
     margin-left: 0;
 }
 input,textarea{
-    width:100%;
+    width:99%;
     background:#ff6c566b;
     padding: 15px;
     font-size: 15px;
     border: 0;
     border-radius:3px;
     color:#fff;
-    margin: 15px 0;
+    margin: 15px 1px;
+}
+.input-right{
+    padding-right: -2px;
 }
 #submit{
    width: 25%;
