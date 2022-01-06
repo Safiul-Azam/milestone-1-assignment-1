@@ -1,0 +1,89 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+    margin:0;
+}
+ /*-- REUSED STYLE --*/
+ 
+h1{
+    font-size: 50px;
+    margin: 0px;
+}
+p{
+    font-size: 16px;
+    color:#333;
+    font-weight: 600;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}
+.link-btn{
+    color:#ddd;
+    padding: 7px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color:#F49760;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.half-width{
+    width:50%;
+    margin-left: 5%;
+}
+.half-width img{
+    width:80%;
+}
+.flex-used{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin-bottom: 120px;
+}
+/*--- HEADER SECTION ---*/
+
+.header-section{
+    background-color: #ffff;
+}
+.focused-title{
+    margin-top: 100px;
+    border-image: linear-gradient(#F49760,#F49760);
+    border-image-slice: 20 20% 30;
+    border-left: 3px solid;
+    /* margin-top: 120px;
+    border-left: 3px solid red;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px; */
+}
+.focused-title h1{
+    margin-left: 20px;
+}
+#mission-color{
+    color:#FF6F59;
+}
+.scroll-down{
+    margin-top: 40px;
+}
+/*-- MISSION SECTION--*/
+
+.my-mission-section h1{
+    text-align: center;
+    margin-bottom: 40px;
+    color:#13103A;
+}
+.my-gools{
+   width:23%;
+   padding: 26px;
+   border-radius: 15px;
+}
+.my-gools img{
+    width:50%;
+    margin-left:-10%;
+}
+#mission{
+    background-color:#e7f2f3c2;
+}
+#vission{
+    background-color: #ebd8ceb4;
+}
+#gools{
+    background-color: #f7d5d0a1;
+}
+
