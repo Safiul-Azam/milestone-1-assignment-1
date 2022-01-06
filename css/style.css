@@ -64,6 +64,7 @@ p{
 }
 .scroll-down{
     margin-top: 40px;
+    color:#13103A;
 }
 /*-- MISSION SECTION--*/
 
@@ -96,7 +97,7 @@ p{
     width:50%;
     margin-right: 5%;
     margin-left: 0%;
-    margin-top: 40px;
+    margin-top:40px;
 }
 .image-part{
     width:40%;
@@ -106,4 +107,15 @@ p{
     background-repeat: no-repeat;
     background-position: left;
     background-size: 20%;
+}
+/*-- GLOBAL COMMUNITY SECTION --*/
+.global-community-section{
+    background-image: url(../images/shapes/shape-4.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size:20%;
+}
+.global-community-section .content-part{
+    margin-right: 0%;
+    margin-left: 5%;
 }
