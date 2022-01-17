@@ -129,36 +129,50 @@ p{
     margin-left: 5%;
 } 
 /*-- CONTANT SECTION --*/
-.contact-section form{
-    width:70%;
-    margin-bottom: 120px;
+.contact-section h2{
+    text-align: center;
+    margin-bottom: 50px;
 }
+/* .contact-section{
+    background-image: url(../images/shapes/shape-4.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: 20%;
+} */
 .contact-flex{
+    width:100%;
     display: flex;
     justify-content: center;
 }
-.contact-section h2{
-    text-align: center;
+.contact-flex form{
+    width:70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
 }
-.contact-section .half-width{
-    margin-left: 0;
+.field{
+    width:100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color:#333;
+    font-weight: 600;
+    outline: none;
+    border:none;
+    background-color: #ddd;
 }
-input,textarea{
-    width:99%;
-    background:#ff6c566b;
-    padding: 15px;
-    font-size: 15px;
-    border: 0;
-    border-radius:3px;
-    color:#fff;
-    margin: 15px 1px;
+.email-name{
+    display: flex;
+    flex-direction: row;
 }
-.input-right{
-    padding-right: -2px;
+.email-name .field{
+    margin-right: 10px;
 }
-#submit{
-   width: 25%;
+.email-name .field:nth-child(2){
+    margin-right: 0;
 }
+
 /*-- FOOTER SECTION --*/
 .footer-section{
     text-align: center;
